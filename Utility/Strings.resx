@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PinPadTypeError" xml:space="preserve">
+    <value>Unknown PIN pad type specified.  Please specify a valid PIN pad type to process this transaction.</value>
+  </data>
+  <data name="ReferenceNotNumericError" xml:space="preserve">
+    <value>The reference number field must be a numeric value.  Please specify a numeric value for the reference number field.</value>
+  </data>
+  <data name="FSAPrescriptionAmountExceedsPurchaseError" xml:space="preserve">
+    <value>The FSA prescription amount is greater than the purchase amount. Please specify an FSA prescription amount between zero and the total FSA purchase amount.</value>
+  </data>
+  <data name="NoReferenceNumberProvidedError" xml:space="preserve">
+    <value>Please specify a value for reference number prior to processing a transaction.</value>
+  </data>
+  <data name="NoAuthorizeAmountProvidedError" xml:space="preserve">
+    <value>Please specify a value for authorize amount prior to processing a transaction.</value>
+  </data>
+  <data name="AcqRefDataTooLongError" xml:space="preserve">
+    <value>The acqrefdata entered is not the correct length.  Please enter a value between 1 and 200 characters.</value>
+  </data>
+  <data name="BatchNoError" xml:space="preserve">
+    <value>The batch number entered is not a valid value.  Please enter a numeric value between 1 and 6 digits.</value>
+  </data>
+  <data name="TerminalNameTooLongError" xml:space="preserve">
+    <value>The terminal name entered is not the correct length. Please enter a value between 1 and 20 characters.</value>
+  </data>
+  <data name="FSAPrescriptionAmountInvalidError" xml:space="preserve">
+    <value>The FSA Prescription amount entered is invalid. Please enter an amount greater than or equal to zero.</value>
+  </data>
+  <data name="PurchaseAmountTooLargeError" xml:space="preserve">
+    <value>The purchase amount entered is not the correct length.  Please enter a value between 0.01 and 999999.99.</value>
+  </data>
+  <data name="InvalidCVVError" xml:space="preserve">
+    <value>The card security code entered is not valid.  Please enter a three to four digit number.</value>
+  </data>
+  <data name="NoMerchantIDProvidedError" xml:space="preserve">
+    <value>Please specify a value for merchant ID prior to processing a transaction.</value>
+  </data>
+  <data name="NoPurchaseAmountProvidedError" xml:space="preserve">
+    <value>Please specify a value for purchase amount prior to processing a transaction.</value>
+  </data>
+  <data name="NoMerchantLanguageProvidedError" xml:space="preserve">
+    <value>Please specify a value for merchant language prior to processing a transaction.</value>
+  </data>
+  <data name="NoSequenceNumberProvidedError" xml:space="preserve">
+    <value>Please specify a value for sequence number prior to processing a transaction.</value>
+  </data>
+  <data name="MemoTooLongError" xml:space="preserve">
+    <value>The memo entered is not the correct length.  Please enter a value between 1 and 20 characters.</value>
+  </data>
+  <data name="CashBackError" xml:space="preserve">
+    <value>The cash back amount entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="MerchantIDTooLongError" xml:space="preserve">
+    <value>The merchant ID entered is not the correct length.  Please enter between 1 and 24 characters.</value>
+  </data>
+  <data name="NetBatchTotalError" xml:space="preserve">
+    <value>The netbatchtotal entered was not a valid value.  Please enter a numeric value between 1 and 10 digits.</value>
+  </data>
+  <data name="NoAcqRefDataProvidedError" xml:space="preserve">
+    <value>Please specify a value for acqrefdata prior to processing a transaction.</value>
+  </data>
+  <data name="DebitReturnAmountError" xml:space="preserve">
+    <value>The debit return amount entered is not a valid value.  Please enter a numeric value between 1 and 10 digits.</value>
+  </data>
+  <data name="NoAuthCodeProvidedError" xml:space="preserve">
+    <value>Please specify a value for authcode prior to processing a transaction.</value>
+  </data>
+  <data name="AuthCodeAlphaNumError" xml:space="preserve">
+    <value>The authcode entered is not a valid value.  Please enter alphanumeric values only.</value>
+  </data>
+  <data name="DebitPurchaseAmountError" xml:space="preserve">
+    <value>The debit purchase amount entered is not a valid value.  Please enter a numeric value between 1 and 10 digits.</value>
+  </data>
+  <data name="NoServersProvidedError" xml:space="preserve">
+    <value>Please specify a value for servers prior to processing a transaction.</value>
+  </data>
+  <data name="AuthorizeAmountTooLargeError" xml:space="preserve">
+    <value>The authorize amount entered is not the correct length.  Please enter a value between 0.01 and 999999.99.</value>
+  </data>
+  <data name="CreditReturnAmountError" xml:space="preserve">
+    <value>The credit return amount entered is not a valid value.  Please enter a numeric value between 1 and 10 digits.</value>
+  </data>
+  <data name="NoInvoiceProvidedError" xml:space="preserve">
+    <value>Please specify a value for invoice number prior to processing a transaction.</value>
+  </data>
+  <data name="CustomerCodeError" xml:space="preserve">
+    <value>The customer code entered is not the correct length.  Please enter a value between 1 and 17 characters.</value>
+  </data>
+  <data name="CreditPurchaseAmountError" xml:space="preserve">
+    <value>The credit purchase amount entered is not a valid value.  Please enter a numeric value between 1 and 10 digits.</value>
+  </data>
+  <data name="InvoiceTooLongError" xml:space="preserve">
+    <value>The invoice number entered is not the correct length.  Please enter a value between 1 and 16 characters.</value>
+  </data>
+  <data name="GratuityNotSupported" xml:space="preserve">
+    <value>Gratuity is not supported by this transaction type.  Please retry without gratuity (amount or prompt).</value>
+  </data>
+  <data name="DebitPurchaseCountError" xml:space="preserve">
+    <value>The debit purchase count entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="TaxError" xml:space="preserve">
+    <value>The tax amount entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="ComPortError" xml:space="preserve">
+    <value>Unknown com port specified.  Please specify a com port to process this transaction.</value>
+  </data>
+  <data name="ReferenceNumberTooLongError" xml:space="preserve">
+    <value>The reference number entered was not the correct length.  Please enter a value between 1 and 16 characters.</value>
+  </data>
+  <data name="NoMemoProvidedError" xml:space="preserve">
+    <value>Please specify a value in the memo field prior to processing a transaction.</value>
+  </data>
+  <data name="DebitReturnCountError" xml:space="preserve">
+    <value>The debit return count entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="CreditPurchaseCountError" xml:space="preserve">
+    <value>The credit purchase count entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="NoVoucherProvidedError" xml:space="preserve">
+    <value>Please specify a value in the voucher field prior to processing a transaction.</value>
+  </data>
+  <data name="ZipCodeError" xml:space="preserve">
+    <value>The ZIP code value entered is not a valid value.  Please enter either 5 or 9 digits.</value>
+  </data>
+  <data name="InvoiceNotNumericError" xml:space="preserve">
+    <value>The invoice number field must be a numeric value.  Please specify a numeric value for invoice number.</value>
+  </data>
+  <data name="UserIDTooLongError" xml:space="preserve">
+    <value>The user ID entered is not the correct length.  Please enter a value between 1 and 40 characters.</value>
+  </data>
+  <data name="NoUserIDProvidedError" xml:space="preserve">
+    <value>Please specify a value for user ID prior to processing a transaction.</value>
+  </data>
+  <data name="CreditReturnCountError" xml:space="preserve">
+    <value>The credit return count entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="GratuityError" xml:space="preserve">
+    <value>The gratuity amount entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="BatchItemCountError" xml:space="preserve">
+    <value>The batch item count entered is not a valid value.  Please enter a numeric value between 1 and 8 digits.</value>
+  </data>
+  <data name="ProcessDataLengthError" xml:space="preserve">
+    <value>The ProcessData entered exceeded the maximum value of 200.  Please verify the data and send the transaction again.</value>
+  </data>
+  <data name="FSAPrescriptionAmountTooLargeError" xml:space="preserve">
+    <value>The FSA prescription amount entered is not the correct length.  Please enter a value between 0.00 and 999999.99.</value>
+  </data>
+</root>
