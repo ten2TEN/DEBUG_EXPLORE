@@ -17,7 +17,7 @@ namespace Transaction
 
 		protected override void SetValues()
 		{
-			base.dsiTransaction.TranCode = "BatchSummary";
+			base.dsiTransaction.TranCode = "BatchSumary";
 		}
 
 		protected override void ValidateTransactionSpecificParameters()
